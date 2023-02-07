@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="exerciciosSemana06" />
         <module name="SpringRestAPIPostgre" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringRestAPIPostgre" options="-parameters" />
+      <module name="exerciciosSemana06" options="-parameters" />
     </option>
   </component>
 </project>
