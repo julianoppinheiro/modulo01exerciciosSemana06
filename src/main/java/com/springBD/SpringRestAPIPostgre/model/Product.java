@@ -12,7 +12,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class Aula {
+public class Product {
 
     /////Exercicio 01
 
@@ -20,4 +20,7 @@ public class Aula {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private String name, description;
+    private Double value;
+    private Integer amount;
+
 }
