@@ -1,22 +1,22 @@
 package com.springBD.SpringRestAPIPostgre.service;
 
-import com.springBD.SpringRestAPIPostgre.model.Product;
+import com.springBD.SpringRestAPIPostgre.model.Aula;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface ProductService {
+public interface AulaService {
     //salvar produto
-    Product save(Product product);
+    Aula save(Aula aula);
 
     //buscar produtos
-    List<Product> findAll();
+    List<Aula> findAll();
 
     //buscar um produto
-    Optional<Product> findById(Long id);
+    Optional<Aula> findById(Long id);
 
     //fazer update em um produto
-    Product update(Product product);
+    Aula update(Aula aula);
 
     void deleteById(Long id);
 }
